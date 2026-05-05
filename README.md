@@ -6,7 +6,7 @@ A personal Claude Code plugin marketplace catalog containing plugins built by sa
 
 | Plugin | Description |
 |--------|-------------|
-| `statusline` | Status bar showing context usage, git branch, tokens, session time and model |
+| `claude-statusline` | Status bar showing context usage, git branch, tokens, session time and model |
 
 ## Adding this Marketplace to Claude Code
 
@@ -21,12 +21,12 @@ Run this command inside Claude Code:
 Once the marketplace is registered, install plugins with a single command inside Claude Code:
 
 ```
-/plugin install statusline@sameera207
+/plugin install claude-statusline@sameera207
 ```
 
 ## Available Plugins
 
-### statusline
+### claude-statusline
 
 A status bar plugin for Claude Code that displays:
 - Context usage
