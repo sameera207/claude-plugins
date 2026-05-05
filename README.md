@@ -10,18 +10,10 @@ A personal Claude Code plugin marketplace catalog containing plugins built by sa
 
 ## Adding this Marketplace to Claude Code
 
-Add the following to your `~/.claude/settings.json` to register this marketplace:
+Run this command inside Claude Code:
 
-```json
-{
-  "extraKnownMarketplaces": [
-    {
-      "name": "sameera207",
-      "source": "github",
-      "repo": "sameera207/claude-plugins"
-    }
-  ]
-}
+```
+/plugin marketplace add sameera207/claude-plugins
 ```
 
 ## Installing Plugins
