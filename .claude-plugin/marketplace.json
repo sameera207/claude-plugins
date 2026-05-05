@@ -1,12 +1,24 @@
 {
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "sameera207",
   "description": "Personal Claude Code plugin marketplace",
+  "owner": {
+    "name": "sameera207",
+    "email": "sameera207@gmail.com"
+  },
   "plugins": [
     {
-      "name": "statusline",
-      "description": "Status bar showing context usage, git branch, tokens, session time and model",
-      "source": "github",
-      "repo": "sameera207/claude-statusline"
+      "name": "claude-statusline",
+      "description": "Displays a one-line status bar showing context usage, model, git branch, and session time at the bottom of every Claude Code session.",
+      "author": {
+        "name": "sameera207"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sameera207/claude-statusline.git"
+      },
+      "homepage": "https://github.com/sameera207/claude-statusline"
     }
   ]
 }
