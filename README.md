@@ -9,19 +9,18 @@ A personal Claude Code plugin marketplace catalog containing plugins built by sa
 | `claude-diagram` | Auto-generates Mermaid diagrams from plans, renders in a full-screen browser viewer with zoom/pan |
 | `claude-statusline` | Status bar showing context usage, git branch, tokens, session time and model |
 
-## Adding this Marketplace to Claude Code
+## Installation
 
-Run this command inside Claude Code:
+Run these commands inside Claude Code:
 
 ```
 /plugin marketplace add sameera207/claude-plugins
 ```
 
-## Installing Plugins
-
-Once the marketplace is registered, install plugins with a single command inside Claude Code:
+Then install whichever plugin you want:
 
 ```
+/plugin install claude-diagram@sameera207
 /plugin install claude-statusline@sameera207
 ```
 
