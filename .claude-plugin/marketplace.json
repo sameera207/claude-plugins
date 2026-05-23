@@ -8,6 +8,19 @@
   },
   "plugins": [
     {
+      "name": "claude-diagram",
+      "description": "Auto-generates Mermaid diagrams from Claude Code plans and renders them in a full-screen light-theme browser viewer with zoom and pan. No API key required.",
+      "author": {
+        "name": "sameera207"
+      },
+      "category": "productivity",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/sameera207/claude-diagram.git"
+      },
+      "homepage": "https://github.com/sameera207/claude-diagram"
+    },
+    {
       "name": "claude-statusline",
       "description": "Displays a one-line status bar showing context usage, model, git branch, and session time at the bottom of every Claude Code session.",
       "author": {
